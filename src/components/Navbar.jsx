@@ -9,7 +9,7 @@ function Navbar() {
     setMobileMenuOpen(!isMobileMenuOpen);
     };
   return (
-    <nav className="fixed bg-white md:bg-transparent text-white p-4">
+    <nav className="absolute bg-white md:bg-transparent text-white p-4">
       <div className="w-full flex justify-between items-center">
         <div className="text-2xl mx-4 font-bold w-1/5 flex justify-center items-center">
           <a href="/" className='w-full inline-block'>
